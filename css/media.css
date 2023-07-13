@@ -1,0 +1,279 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*	header start*/
+header {
+    padding: 0;
+}
+.nav_t:focus {
+    box-shadow: none;
+    }
+.ddm {
+    width: 280px;
+    padding: 5px 5px;
+}
+.ddm[data-bs-popper] {
+    top: 38px;
+    left: 5px;
+}
+.d_input{
+    height: 40px;
+}
+.d_btn{
+    height: 40px;
+}
+.logo{
+    font-size: 25px;
+}
+/*slider start	*/
+.s_item {
+    margin: 70px 0;
+}
+.s_h1 {
+    font-size: 25px;
+    text-align: center;
+}
+.s_p {
+    padding-right: 0;
+    line-height: 25px;
+    text-align: center;
+}
+.s_btn {
+    padding: 5px 20px;
+    }
+/*service start*/
+.ser_item1 {
+    margin-top: 50px;
+}
+.ser_p {
+    padding: 0 20px;
+    line-height: 20px;
+}
+.ser_item {
+    margin: 40px 0 10px;
+    padding: 0;
+}
+/*about start*/
+.about {
+    margin: 50px 0 60px;
+}
+.a_img {
+    display: none;
+}
+.a_about p {
+    margin: 10px 0 15px;
+    padding: 0;
+    line-height: 25px;
+}
+.a_about button {
+    padding: 5px 10px;
+}
+/*work start*/
+.work {
+    padding: 40px 0;
+}
+.work h1 {
+    font-size: 25px;
+}
+.work ul {
+    margin-top: 50px;
+}
+.work ul li a {
+    font-size: 13px;
+    padding: 10px 0px; 
+}
+.w_img {
+    margin-top: 15px;
+    text-align: center;
+}
+/*feature start*/
+.feature {
+   margin: 50px 0 60px;
+}
+.feature h1 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.f_item {
+    text-align: center;
+}
+.f_item p {
+    padding: 20px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*	header start*/
+header {
+    padding: 0;
+}
+.nav_t:focus {
+    box-shadow: none;
+    }
+.ddm{
+    padding: 5px 5px;
+}
+.ddm[data-bs-popper] {
+    top: -18px;
+    left: 78px;
+}
+.d_input{
+    height: 40px;
+}
+.d_btn{
+    height: 40px;
+}
+.logo{}
+/*slider start	*/
+.s_item {
+    margin: 70px 0;
+}
+ .s_h1 {
+    font-size: 25px;
+    text-align: center;
+}
+.s_p {
+    padding-right: 0;
+    line-height: 25px;
+    text-align: center;
+}
+.s_btn {
+    padding: 5px 20px;
+    }
+/*service start*/
+.ser_item1 {
+    margin-top: 50px;
+}
+.ser_p {
+    padding: 0 20px;
+    line-height: 25px;
+}
+.ser_item {
+    margin: 40px 0 10px;
+    padding: 10px 10px;
+}
+/*about start*/
+.about {
+    margin: 50px 0 60px;
+}
+.a_img {
+    display: none;
+}
+.a_about p {
+    margin: 10px 0 15px;
+    padding: 0;
+    line-height: 25px;
+}
+.a_about button {
+    padding: 5px 10px;
+}
+/*work start*/
+.work {
+    padding: 40px 0;
+}
+.work ul {
+    margin-top: 50px;
+}
+.work ul li a {
+    padding: 10px 0px; 
+}
+.w_img {
+    margin-top: 15px;
+    text-align: center;
+}
+.w_text {
+    padding: 3px 0 0px 110px;
+}
+/*feature start*/
+.feature {
+   margin: 50px 0 60px;
+}
+.feature h1 {
+    margin-bottom: 60px;
+}
+.f_item p {
+    padding: 25px 0;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.nav_t:focus {
+    box-shadow: none;
+    }
+.ddm[data-bs-popper] {
+    top: -25px;
+    left: 100px;
+}
+
+/*slider start	*/
+.s_item {
+    margin: 100px 0;
+}
+/*service start*/
+.ser_item1 {
+    margin-top: 70px;
+}
+.ser_item {
+    margin: 40px 0 20px;
+}
+/*about start*/
+.about {
+    margin: 50px 0 80px;
+}
+.a_about p {
+    margin: 10px 0 15px;
+    padding: 0;
+    line-height: 25px;
+}
+.a_about button {
+    padding: 10px 15px;
+}
+/*work start*/
+.work {
+    padding: 50px 0;
+}
+.work ul {
+    margin-top: 80px;
+}
+.w_img {
+  margin-top: 30px;
+}
+/*feature start*/
+.feature {
+    margin: 70px 0 80px;
+}
+.feature h1 {
+    margin-bottom: 70px;
+}
+.f_item p {
+    padding: 25px 0;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*about start*/
+.about {
+    margin: 0 0 100px;
+}
+.a_about p {
+    margin: 10px 0 15px;
+    padding: 0;
+    line-height: 25px;
+}
+.a_about button {
+    padding: 10px 15px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
